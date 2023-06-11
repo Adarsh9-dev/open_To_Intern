@@ -1,0 +1,29 @@
+{
+  "name": "open_to_intern",
+  "version": "1.0.0",
+  "description": "This is a intern application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarsh9-dev/open_To_Intern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adarsh9-dev/open_To_Intern/issues"
+  },
+  "homepage": "https://github.com/Adarsh9-dev/open_To_Intern#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
